@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'nimrod';
+    src: url('../font/Nimrod/nimrod_cyr-webfont.woff2') format('woff2'),
+         url('../font/Nimrod/nimrod_cyr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nimrod';
+    src: url('../font/Nimrod/nimrod_cyr-bold-webfont.woff2') format('woff2'),
+         url('../font/Nimrod/nimrod_cyr-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nimrod';
+    src: url('../font/Nimrod/nimrod_cyr-boldinclined-webfont.woff2') format('woff2'),
+         url('../font/Nimrod/nimrod_cyr-boldinclined-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'nimrod';
+    src: url('../font/Nimrod/nimrod_cyr-inclined-webfont.woff2') format('woff2'),
+         url('../font/Nimrod/nimrod_cyr-inclined-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@media (min-height: 900px) {
+    .sidenav{
+        height: 900px;
+    }
+}
+.azuloscuro{
+    background-color: #001724;
+}
+.titulo{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.navbar{
+    background-color: #001724;
+    
+}
+.lado {
+  
+  background-color: #343434;
+  
+}
+
+
+.container-fluid .container{
+    padding-top: 20px;
+}
+
+.centro{
+    background-color: #BDBDB8;
+}
+.container-fluid .pagination{
+    padding-top: 30px;
+    
+}
+ .card {
+      overflow: hidden;
+  }
+
+    .card-img-left {
+        position: absolute;
+        height: max-content;
+        max-height: 100%;
+        width: auto;
+        max-width: 40%;
+    }
+
+    .card-img-left ~ .card-body {
+        margin-left: 40%;
+       
+    }
+a{
+    font-style: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    text-decoration: none;
+ 
+}
+
+.chico {
+    margin-top: 10%;
+    max-width: 200px;
+}
+
+.gris{
+    background-color: #8A8787;
+}
+
+.negro{
+    background-color: black;
+}
+.blockquoteblack {
+  padding: 0.5rem 1rem;
+  border-left: .25rem solid black; }
